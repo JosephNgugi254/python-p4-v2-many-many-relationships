@@ -43,3 +43,5 @@ class Project(db.Model):
 
     def __repr__(self):
         return f'<Review {self.id}, {self.title}, {self.budget}>'
+
+        
